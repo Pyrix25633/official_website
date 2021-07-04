@@ -44,7 +44,7 @@
   font-size: 1.5rem;
   letter-spacing: 1px;
   background-image: none;
-  margin: -92px auto 0 894px;
+  margin: -92px auto 0 966px;
 }
 
 .u-section-1 .u-image-1 {
@@ -71,7 +71,7 @@
   font-size: 1.5rem;
   letter-spacing: 1px;
   background-image: none;
-  margin: -139px auto 0 894px;
+  margin: -139px auto 0 966px;
 }
 
 .u-section-1 .u-image-3 {
@@ -92,57 +92,91 @@
   font-size: 1.5rem;
   letter-spacing: 1px;
   background-image: none;
-  margin: -70px auto 0 894px;
+  margin: -70px auto 0 966px;
 }
 
 @media (max-width: 1199px) {
+  .u-section-1 .u-shape-2 {
+    width: 25px;
+    height: 820px;
+    left: auto;
+    bottom: auto;
+    right: auto;
+    top: auto;
+  }
+
   .u-section-1 .u-text-1 {
+    margin-top: 2494px;
     margin-left: 0;
     margin-right: 0;
   }
 
   .u-section-1 .u-btn-1 {
-    margin-left: 694px;
+    margin-left: 766px;
+  }
+
+  .u-section-1 .u-image-2 {
+    margin-top: 20px;
+    margin-left: auto;
   }
 
   .u-section-1 .u-btn-2 {
-    margin-left: 694px;
+    margin-left: 766px;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-top: 20px;
+    margin-left: 77px;
   }
 
   .u-section-1 .u-btn-3 {
-    margin-left: 694px;
+    margin-left: 766px;
   }
 }
 
 @media (max-width: 991px) {
+  .u-section-1 .u-shape-2 {
+    width: 30px;
+  }
+
   .u-section-1 .u-text-2 {
     margin-top: -11596px;
   }
 
   .u-section-1 .u-btn-1 {
-    margin-left: 474px;
+    margin-left: 546px;
+  }
+
+  .u-section-1 .u-image-2 {
+    margin-top: -134px;
+    margin-left: 77px;
   }
 
   .u-section-1 .u-btn-2 {
-    margin-left: 474px;
+    margin-left: 546px;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-top: -100px;
+    margin-left: auto;
   }
 
   .u-section-1 .u-btn-3 {
-    margin-left: 474px;
+    margin-left: 546px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-btn-1 {
-    margin-left: 294px;
+    margin-left: 366px;
   }
 
   .u-section-1 .u-btn-2 {
-    margin-left: 294px;
+    margin-left: 366px;
   }
 
   .u-section-1 .u-btn-3 {
-    margin-left: 294px;
+    margin-left: 366px;
   }
 }
 
@@ -157,7 +191,7 @@
   }
 
   .u-section-1 .u-btn-1 {
-    margin-left: 94px;
+    margin-left: 166px;
   }
 
   .u-section-1 .u-image-1 {
@@ -173,7 +207,7 @@
   }
 
   .u-section-1 .u-btn-2 {
-    margin-left: 94px;
+    margin-left: 166px;
   }
 
   .u-section-1 .u-image-3 {
@@ -185,6 +219,6 @@
   }
 
   .u-section-1 .u-btn-3 {
-    margin-left: 94px;
+    margin-left: 166px;
   }
 }
