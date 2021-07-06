@@ -35591,19 +35591,43 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 991px) {
+  .u-header .u-image-1 {
+    width: auto;
+    height: auto;
+  }
+
   .u-header .u-text-1 {
     margin-right: 282px;
   }
 }
 @media (max-width: 767px) {
+  .u-header .u-image-1 {
+    width: 64px;
+    height: 64px;
+  }
+
   .u-header .u-text-1 {
     margin-right: 102px;
   }
 }
 @media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 133px;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: 35px;
+    margin-left: -20px;
+  }
+
+  .u-header .u-menu-1 {
+    width: auto;
+    margin-top: -51px;
+  }
+
   .u-header .u-text-1 {
-    margin-right: 0;
-    margin-left: 77px;
+    width: 209px;
+    margin: -52px auto 21px;
   }
 }
 .u-footer {
