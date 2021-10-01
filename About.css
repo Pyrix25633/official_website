@@ -60,7 +60,6 @@
   min-height: 370px;
   margin-top: 0;
   margin-bottom: 0;
-  height: auto;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -112,7 +111,6 @@
 .u-section-1 .u-group-3 {
   background-image: none;
   min-height: 370px;
-  height: auto;
   margin: 0 0 1px;
 }
 
@@ -167,10 +165,6 @@
     margin-right: 0;
   }
 
-  .u-section-1 .u-group-2 {
-    height: auto;
-  }
-
   .u-section-1 .u-text-3 {
     margin-left: 0;
     margin-right: 0;
@@ -179,7 +173,6 @@
   .u-section-1 .u-group-3 {
     margin-right: initial;
     margin-left: initial;
-    height: auto;
   }
 
   .u-section-1 .u-text-5 {
