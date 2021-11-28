@@ -1,0 +1,88 @@
+document.write(`
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <title>Animated resourcepack logo</title>
+
+        </head>
+
+        <style>
+            :root {
+                --folder-color-a: #C27B27;
+                --folder-color-b: #D77400;
+                --image-color: black;
+            }
+
+            svg {
+                cursor: pointer;
+            }
+
+            #folder2 {
+                fill: var(--folder-color-a)
+            }
+            #folder1_2 {
+                fill: var(--folder-color-b)
+            }
+            #imageGroup {
+                fill: var(--image-color);
+                stroke: var(--image-color)
+            }
+
+            #folderGroup,
+            #imageGroup {
+                transition: all 1s ease;
+            }
+            #folderGroup {
+                transform: translateX(25%);
+            }
+            #imageGroup {
+                transform: translateX(-25%);
+                opacity: 0;
+            }
+
+            svg:hover #folderGroup {
+                transform: translateX(-3%);
+            }
+            svg:hover #imageGroup {
+                transform: translateX(3%);
+                opacity: 1;
+            }
+
+        </style>
+
+        <body>
+            <svg width="165" height="85" viewBox="0 0 165 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                <g id="resourcePack">
+                    <g id="imageGroup">
+                        <g id="image1">
+                            <line id="Line 11" x1="148.5" y1="26" x2="148.5" y2="69"/>
+                            <line id="Line 10" x1="111" y1="26.5" x2="149" y2="26.5"/>
+                            <line id="Line 9" x1="111" y1="68.5" x2="149" y2="68.5"/>
+                            <line id="Line 8" x1="111.5" y1="26" x2="111.5" y2="69"/>
+                            <line id="Line 7" x1="144" y1="20.5" x2="154" y2="20.5"/>
+                            <line id="Line 6" x1="144.5" y1="11" x2="144.5" y2="21"/>
+                            <line id="Line 5" x1="144.495" y1="10.505" x2="154.495" y2="20.505" stroke-width="1.4"/>
+                            <line id="Line 4" x1="105" y1="10.5" x2="145" y2="10.5"/>
+                            <line id="Line 3" x1="154.5" y1="75" x2="154.5" y2="20"/>
+                            <line id="Line 2" x1="105" y1="74.5" x2="155" y2="74.5"/>
+                            <line id="Line 1" x1="105.5" y1="10" x2="105.5" y2="75"/>
+                            <circle id="Ellipse 1" cx="122" cy="37" r="5"/>
+                            <path id="Polygon 2" d="M123 48L134.258 68.25H111.742L123 48Z"/>
+                            <path id="Polygon 1" d="M134.5 42L148.789 68.25H120.211L134.5 42Z"/>
+                        </g>
+                    </g>
+
+                    <g id="folderGroup">
+                        <g id="folder1">
+                            <path id="folder2" d="M5 10C5 7.23858 7.23858 5 10 5H65C67.7614 5 70 7.23858 70 10V20H5V10Z"/>
+                            <path id="folder1_2" d="M5 20H90C92.7614 20 95 22.2386 95 25V75C95 77.7614 92.7614 80 90 80H10C7.23858 80 5 77.7614 5 75V20Z"/>
+                        </g>
+                    </g>
+                </g>
+            
+            </svg>
+            
+        </body>
+    </html>
+`)

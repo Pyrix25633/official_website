@@ -1,0 +1,144 @@
+.pyrix25633-round-img {
+    border-radius: 10px;
+}
+
+.pyrix25633-head-banner {
+    background-color: black;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-image: url('./src/img/blocks.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.pyrix25633-blocks-text {
+    color: ghostwhite;
+}
+
+.pyrix25633-black {
+    color: black;
+}
+.pyrix25633-black-border {
+    border-color: black!important;
+}
+.pyrix25633-black-background {
+    background-color: black;
+    color: ghostwhite;
+}
+.pyrix25633-red {
+    color: red;
+}
+.pyrix25633-red-border {
+    border-color: red!important;
+}
+.pyrix25633-red-background {
+    background-color: red;
+    color: ghostwhite;
+}
+.pyrix25633-purple {
+    color: purple;
+}
+.pyrix25633-purple-border {
+    border-color: purple!important;
+}
+.pyrix25633-purple-background {
+    background-color: purple;
+    color: ghostwhite;
+}
+.pyrix25633-brown {
+    color: rgb(117, 67, 9);
+}
+.pyrix25633-brown-border {
+    border-color: rgb(117, 67, 9)!important;
+}
+.pyrix25633-brown-background {
+    background-color: rgb(117, 67, 9);
+    color: ghostwhite;
+}
+.pyrix25633-orange {
+    color: orange;
+}
+.pyrix25633-orange-border {
+    border-color: orange!important;
+}
+.pyrix25633-orange-background {
+    background-color: orange;
+    color: ghostwhite;
+}
+.pyrix25633-yellow {
+    color: yellow;
+}
+.pyrix25633-yellow-border {
+    border-color: yellow!important;
+}
+.pyrix25633-yellow-background {
+    background-color: yellow;
+    color: ghostwhite;
+}
+.pyrix25633-lime {
+    color: 
+    lime;
+}
+.pyrix25633-lime-border {
+    border-color: lime!important;
+}
+.pyrix25633-lime-background {
+    background-color: lime;
+    color: ghostwhite;
+}
+.pyrix25633-discord {
+    color: 
+    #7289da;
+}
+.pyrix25633-discord-border {
+    border-color: #7289da!important;
+}
+.pyrix25633-discord-background {
+    background-color: #7289da;
+    color: ghostwhite;
+}
+.pyrix25633-container-dark {
+    background-color: #031e3b;
+    color: #EEEEEE;
+}
+.pyrix25633-container-light {
+    background-color: #1886c9;
+    color: #031e3b;
+}
+
+.pyrix25633-row-400 {
+    height: 800px;
+}
+.pyrix25633-row-200 {
+    height: 400px;
+}
+.pyrix25633-row-footer {
+    height: 100px;
+}
+.pyrix25633-header-spacing {
+    height: 100px;
+}
+
+@media screen and (min-width: 348px) {
+    .pyrix25633-header-spacing {
+        height: 60px;
+    }
+    @media screen and (min-width: 768px) {
+        .pyrix25633-head-banner {
+            padding-top: 12rem;
+            padding-bottom: 12rem;
+            background-image: url('./src/img/blocks2.png');
+        }
+        @media screen and (min-width: 992px){
+            .pyrix25633-row-400 {
+                height: 400px;
+            }
+            .pyrix25633-row-200 {
+                height: 200px;
+            }
+            .pyrix25633-row-footer {
+                height: 50px;
+            }
+        }
+    }
+}
