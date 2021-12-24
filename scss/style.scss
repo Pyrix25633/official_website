@@ -1,0 +1,134 @@
+$ibr: 10px;
+$hbp: 8rem;
+$black: black;
+$gwhite: ghostwhite;
+$red: red;
+$purple: purple;
+$brown: rgb(117, 67, 9);
+$orange: orange;
+$yellow: yellow;
+$lime: lime;
+$discord: #7289da;
+$dblue: #031e3b;
+$lblue: #1886c9;
+$h400: 400px;
+$h200: 200px;
+$hfooter: 100px;
+
+@mixin bckg($bg, $cl) {
+    background-color: $bg;
+    color: $cl;
+}
+@mixin col-bd-bg($cl1, $cl2) {
+    color: $cl1;
+    &-border {
+        border-color: $cl1!important;
+    }
+    &-background {
+        @include bckg($cl1, $cl2)
+    }
+}
+
+.pyrix25633 {
+    &-round-img {
+        border-radius: $ibr;
+    }
+    &-head-banner {
+        background-color: $black;
+        padding-top: $hbp;
+        padding-bottom: $hbp;
+        background-image: url('../src/img/blocks.png');
+        background-size: cover;
+        background-position: center;
+    }
+    &-blocks-text {
+        color: $gwhite;
+    }
+    &-black {
+        @include col-bd-bg($black, $gwhite)
+    }
+    &-red {
+        @include col-bd-bg($red, $gwhite)
+    }
+    &-purple {
+        @include col-bd-bg($purple, $gwhite)
+    }
+    &-brown {
+        @include col-bd-bg($brown, $gwhite)
+    }
+    &-orange {
+        @include col-bd-bg($orange, $gwhite)
+    }
+    &-yellow {
+        @include col-bd-bg($yellow, $gwhite)
+    }
+    &-white {
+        @include col-bd-bg($gwhite, $black)
+    }
+    &-lime {
+        @include col-bd-bg($lime, $gwhite)
+    }
+    &-discord {
+        @include col-bd-bg($discord, $gwhite)
+    }
+    &-container {
+        &-dark {
+            background-color: $dblue;
+            color: $gwhite;
+        }
+        &-light {
+            background-color: $lblue;
+            color: $dblue;
+        }
+    }
+    &-row {
+        &-400 {
+            height: $h400 * 2;
+        }
+        &-200 {
+            height: $h200 * 2;
+        }
+        &-footer {
+            height: $hfooter;
+        }
+    }
+    &-header {
+        &-spacing {
+            height: 100px;
+        }
+    }
+}
+
+@media screen and (min-width: 348px) {
+    .pyrix25633 {
+        &-header {
+            &-spacing {
+                height: 60px;
+            }
+        }
+    }
+    @media screen and (min-width: 768px) {
+        .pyrix25633 {
+            &-head-banner {
+                padding-top: $hbp / 8 * 12;
+                padding-bottom: $hbp / 8 * 12;
+                background-image: url('../src/img/blocks2.png');
+            }
+        }
+        @media screen and (min-width: 992px){
+            .pyrix25633 {
+                &-row {
+                    &-400 {
+                        height: $h400;
+                    }
+                    &-200 {
+                        height: $h200;
+                    }
+                    &-footer {
+                        height: $hfooter / 2;
+                    }
+                }
+            }
+        }
+    }
+}
