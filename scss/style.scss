@@ -71,6 +71,9 @@ $hfooter: 100px;
     &-discord {
         @include col-bd-bg($discord, $gwhite)
     }
+    &-lblue {
+        @include col-bd-bg($lblue, $gwhite)
+    }
     &-container {
         &-dark {
             background-color: $dblue;

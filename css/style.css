@@ -72,6 +72,13 @@
   .pyrix25633-discord-background {
     background-color: #7289da;
     color: ghostwhite; }
+.pyrix25633-lblue {
+  color: #1886c9; }
+  .pyrix25633-lblue-border {
+    border-color: #1886c9 !important; }
+  .pyrix25633-lblue-background {
+    background-color: #1886c9;
+    color: ghostwhite; }
 .pyrix25633-container-dark {
   background-color: #031e3b;
   color: ghostwhite; }
