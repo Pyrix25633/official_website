@@ -4,7 +4,7 @@
   background-color: black;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background-image: url("../src/img/blocks.png");
+  background-image: url("../src/img/blocks.jpeg");
   background-size: cover;
   background-position: center; }
 .pyrix25633-blocks-text {
@@ -101,7 +101,7 @@
   .pyrix25633-head-banner {
     padding-top: 12rem;
     padding-bottom: 12rem;
-    background-image: url("../src/img/blocks2.png"); } }
+    background-image: url("../src/img/blocks2.jpeg"); } }
 @media screen and (min-width: 348px) and (min-width: 768px) and (min-width: 992px) {
   .pyrix25633-row-400 {
     height: 400px; }

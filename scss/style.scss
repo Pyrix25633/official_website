@@ -37,7 +37,7 @@ $hfooter: 100px;
         background-color: $black;
         padding-top: $hbp;
         padding-bottom: $hbp;
-        background-image: url('../src/img/blocks.png');
+        background-image: url('../src/img/blocks.jpeg');
         background-size: cover;
         background-position: center;
     }
@@ -115,7 +115,7 @@ $hfooter: 100px;
             &-head-banner {
                 padding-top: $hbp / 8 * 12;
                 padding-bottom: $hbp / 8 * 12;
-                background-image: url('../src/img/blocks2.png');
+                background-image: url('../src/img/blocks2.jpeg');
             }
         }
         @media screen and (min-width: 992px){
