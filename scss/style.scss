@@ -8,6 +8,7 @@ $brown: rgb(117, 67, 9);
 $orange: orange;
 $yellow: yellow;
 $lime: lime;
+$green: #00CA7E;
 $discord: #7289da;
 $dblue: #031e3b;
 $lblue: #1886c9;
@@ -67,6 +68,9 @@ $hfooter: 100px;
     }
     &-lime {
         @include col-bd-bg($lime, $gwhite)
+    }
+    &-green {
+        @include col-bd-bg($green, $gwhite)
     }
     &-discord {
         @include col-bd-bg($discord, $gwhite)

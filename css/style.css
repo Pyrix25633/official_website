@@ -65,6 +65,13 @@
   .pyrix25633-lime-background {
     background-color: lime;
     color: ghostwhite; }
+.pyrix25633-green {
+  color: #00CA7E; }
+  .pyrix25633-green-border {
+    border-color: #00CA7E !important; }
+  .pyrix25633-green-background {
+    background-color: #00CA7E;
+    color: ghostwhite; }
 .pyrix25633-discord {
   color: #7289da; }
   .pyrix25633-discord-border {
