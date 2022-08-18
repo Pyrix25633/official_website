@@ -86,6 +86,13 @@
   .pyrix25633-lblue-background {
     background-color: #1886c9;
     color: ghostwhite; }
+.pyrix25633-lgreen {
+  color: lightgreen; }
+  .pyrix25633-lgreen-border {
+    border-color: lightgreen !important; }
+  .pyrix25633-lgreen-background {
+    background-color: lightgreen;
+    color: ghostwhite; }
 .pyrix25633-container-dark {
   background-color: #031e3b;
   color: ghostwhite; }

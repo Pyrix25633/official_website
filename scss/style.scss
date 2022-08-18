@@ -12,6 +12,7 @@ $green: #00CA7E;
 $discord: #7289da;
 $dblue: #031e3b;
 $lblue: #1886c9;
+$lgreen: lightgreen;
 $h400: 400px;
 $h200: 200px;
 $hfooter: 100px;
@@ -77,6 +78,9 @@ $hfooter: 100px;
     }
     &-lblue {
         @include col-bd-bg($lblue, $gwhite)
+    }
+    &-lgreen {
+        @include col-bd-bg($lgreen, $gwhite)
     }
     &-container {
         &-dark {
