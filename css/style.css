@@ -66,11 +66,11 @@
     background-color: lime;
     color: ghostwhite; }
 .pyrix25633-green {
-  color: #00CA7E; }
+  color: #00Ca7e; }
   .pyrix25633-green-border {
-    border-color: #00CA7E !important; }
+    border-color: #00Ca7e !important; }
   .pyrix25633-green-background {
-    background-color: #00CA7E;
+    background-color: #00Ca7e;
     color: ghostwhite; }
 .pyrix25633-discord {
   color: #7289da; }
@@ -78,6 +78,27 @@
     border-color: #7289da !important; }
   .pyrix25633-discord-background {
     background-color: #7289da;
+    color: ghostwhite; }
+.pyrix25633-curseforge {
+  color: #f16436; }
+  .pyrix25633-curseforge-border {
+    border-color: #f16436 !important; }
+  .pyrix25633-curseforge-background {
+    background-color: #f16436;
+    color: ghostwhite; }
+.pyrix25633-modrinth {
+  color: #1bd96a; }
+  .pyrix25633-modrinth-border {
+    border-color: #1bd96a !important; }
+  .pyrix25633-modrinth-background {
+    background-color: #1bd96a;
+    color: ghostwhite; }
+.pyrix25633-github {
+  color: #4078c0; }
+  .pyrix25633-github-border {
+    border-color: #4078c0 !important; }
+  .pyrix25633-github-background {
+    background-color: #4078c0;
     color: ghostwhite; }
 .pyrix25633-lblue {
   color: #1886c9; }

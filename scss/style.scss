@@ -8,8 +8,11 @@ $brown: rgb(117, 67, 9);
 $orange: orange;
 $yellow: yellow;
 $lime: lime;
-$green: #00CA7E;
+$green: #00Ca7e;
 $discord: #7289da;
+$curseforge: #f16436;
+$modrinth: #1bd96a;
+$github: #4078c0;
 $dblue: #031e3b;
 $lblue: #1886c9;
 $lgreen: lightgreen;
@@ -75,6 +78,15 @@ $hfooter: 100px;
     }
     &-discord {
         @include col-bd-bg($discord, $gwhite)
+    }
+    &-curseforge {
+        @include col-bd-bg($curseforge, $gwhite)
+    }
+    &-modrinth {
+        @include col-bd-bg($modrinth, $gwhite)
+    }
+    &-github {
+        @include col-bd-bg($github, $gwhite)
     }
     &-lblue {
         @include col-bd-bg($lblue, $gwhite)
